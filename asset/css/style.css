@@ -1,0 +1,39 @@
+body {
+    background: rgb(189, 138, 138);
+    background: radial-gradient(circle, rgba(189, 138, 138, 1) 0%, rgba(147, 16, 141, 1) 100%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+section {
+    gap: 40px;
+    display: block;
+    margin: 20px;
+    background: white;
+    padding: 30px;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#boton {
+    padding-bottom: 30px;
+}
+#btnTarea {
+    border-radius: 20%;
+}
+
+#numeracion {
+    align-items: start;
+}
